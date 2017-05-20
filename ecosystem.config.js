@@ -11,7 +11,7 @@ module.exports = {
 			ref: 'origin/master',
 			repo: 'git@github.com:marcboanas/AWS-NodeJS.git',
 			path: '/home/ubuntu/server',
-			'post-deploy': 'pm install && pm2 startOrRestart ecosystem.config.js'
+			'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
 		}
 	}
 }
